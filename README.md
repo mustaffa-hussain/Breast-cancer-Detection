@@ -4,22 +4,26 @@
 <html lang="en">
 <head>
     <title>Breast Cancer Wisconsin (Diagnostic) Data Set | Kaggle</title>
-    <meta charset="utf-8" />
-    <meta name="robots" content="index, follow" />
-    <meta name="description" content="Predict whether the cancer is benign or malignant" />
-    <meta name="turbolinks-cache-control" content="no-cache" />
-        <meta name="keywords" content="mathematics,healthcare,cancer" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
-    <meta name="theme-color" content="#008ABC" />
-    <script nonce="uMZPJ7Y7LD0V6o/VFeYV&#x2B;g==" type="text/javascript">
-        window["initialPageLoadStartTime"] = new Date().getTime();
-    </script>
-    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://js.intercomcdn.com" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" /><link rel="preload" href="/static/assets/fontawesome-webfont.woff2" as="font" crossorigin="anonymous" />
-    <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic" rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons" rel="stylesheet" type='text/css' />
-        <link rel="stylesheet" type="text/css" href="/static/assets/vendor.css?v=8ba2ade212fb9c891959" />
-        <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=f313691f4421aa24a0fc" />
-<br>
+    <body>
+Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image. n the 3-dimensional space is that described in: [K. P. Bennett and O. L. Mangasarian: "Robust Linear Programming Discrimination of Two Linearly Inseparable Sets", Optimization Methods and Software 1, 1992, 23-34].
+
+This database is also available through the UW CS ftp server: ftp ftp.cs.wisc.edu cd math-prog/cpo-dataset/machine-learn/WDBC/
+
+Also can be found on UCI Machine Learning Repository: https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29
+
+Attribute Information:
+
+1) ID number 2) Diagnosis (M = malignant, B = benign) 3-32)
+
+Ten real-valued features are computed for each cell nucleus:
+
+a) radius (mean of distances from center to points on the perimeter) b) texture (standard deviation of gray-scale values) c) perimeter d) area e) smoothness (local variation in radius lengths) f) compactness (perimeter^2 / area - 1.0) g) concavity (severity of concave portions of the contour) h) concave points (number of concave portions of the contour) i) symmetry j) fractal dimension ("coastline approximation" - 1)
+
+The mean, standard error and "worst" or largest (mean of the three largest values) of these features were computed for each image, resulting in 30 features. For instance, field 3 is Mean Radius, field 13 is Radius SE, field 23 is Worst Radius.
+
+All feature values are recoded with four significant digits.
+
+Missing attribute values: none
+
+Class distribution: 357 benign, 212 malignant</body>
 The results are : <img src="results.jpg" alt="Results"> 
