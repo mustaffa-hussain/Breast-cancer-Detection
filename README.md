@@ -2,8 +2,7 @@
 <br> The Data is taken from - https://www.kaggle.com/uciml/breast-cancer-wisconsin-data
 <br>
 <html lang="en">
-<head>
-    <title>Breast Cancer Wisconsin (Diagnostic) Data Set | Kaggle</title>
+    <head> <title>Breast Cancer Wisconsin (Diagnostic) Data Set | Kaggle</title></head>
     <body>
 Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image. n the 3-dimensional space is that described in: [K. P. Bennett and O. L. Mangasarian: "Robust Linear Programming Discrimination of Two Linearly Inseparable Sets", Optimization Methods and Software 1, 1992, 23-34].
 
@@ -26,4 +25,5 @@ All feature values are recoded with four significant digits.
 Missing attribute values: none
 
 Class distribution: 357 benign, 212 malignant</body>
-The results are : <img src="results.jpg" alt="Results"> 
+<br><b>
+The results are : <b><img src="results.jpg" alt="Results"> 
